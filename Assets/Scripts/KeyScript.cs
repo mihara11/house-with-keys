@@ -5,6 +5,7 @@ using UnityEngine;
 public class KeyScript : MonoBehaviour
 {
     public GameObject player; 
+    public GameObject deleteLight; 
 
     void OnTriggerEnter(Collider other)
     {
@@ -15,6 +16,7 @@ public class KeyScript : MonoBehaviour
             Debug.Log("Ключ найден!");
 
             Destroy(gameObject);
+            Destroy(deleteLight);
         }
     }
 }

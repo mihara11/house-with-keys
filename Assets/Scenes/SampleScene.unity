@@ -3644,6 +3644,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   player: {fileID: 1072747006}
   walltodestroy: {fileID: 1906162615}
+  deleteLight: {fileID: 2034525184}
 --- !u!1 &964212106
 GameObject:
   m_ObjectHideFlags: 0
@@ -8936,6 +8937,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   player: {fileID: 1072747006}
+  deleteLight: {fileID: 1653975174}
 --- !u!4 &1998974248
 Transform:
   m_ObjectHideFlags: 0
@@ -9079,6 +9081,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   player: {fileID: 1072747006}
+  deleteLight: {fileID: 381123446}
 --- !u!4 &2119920962
 Transform:
   m_ObjectHideFlags: 0

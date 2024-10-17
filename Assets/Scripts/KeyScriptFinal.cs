@@ -6,6 +6,7 @@ public class KeyScriptFinal : MonoBehaviour
 {
     public GameObject player;
     public GameObject walltodestroy;
+    public GameObject deleteLight;
 
     void OnTriggerEnter(Collider other)
     {
@@ -17,6 +18,7 @@ public class KeyScriptFinal : MonoBehaviour
 
             Destroy(gameObject);
             Destroy(walltodestroy);
+            Destroy(deleteLight);
         }
     }
 }
